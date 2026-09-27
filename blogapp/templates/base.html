@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog App</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+    </nav>
+    <hr>
+
+    {% block content %}
+
+    {% endblock %}
+
+    {% include 'components/footer.html' %}
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<div>
+
+    <h2> {{ post.title }}</h2>
+
+    <p> Author: <a href="/user/{{ post.author.username }}/"> {{ post.author.username }}</a></p>
+
+    <p> {{ post.content|truncatewords:8 }} </p>
+
+    <small> {{ post.date }} </small>
+
+    <a href="/post/{{ post.id }}/">Read More...</a>
+
+    <hr>
+
+</div>

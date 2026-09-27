@@ -1,0 +1,99 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environment (IMPORTANT)
+# =========================
+myenv/
+venv/
+env/
+.venv/
+
+# =========================
+# Django
+# =========================
+*.log
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+
+# Django static/media
+media/
+staticfiles/
+
+# Translations
+*.mo
+*.pot
+
+# =========================
+# Environment Variables (SECURITY)
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Distribution / Packaging
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# =========================
+# Logs & Runtime Files
+# =========================
+logs/
+*.log
+*.pid
+
+# =========================
+# Testing / Coverage
+# =========================
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Node (if frontend later)
+# =========================
+node_modules/
+dist/
+build/
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.tmp
+*.temp
+
+# =========================
+# Secrets / Keys
+# =========================
+*.pem
+*.key
+*.crt
